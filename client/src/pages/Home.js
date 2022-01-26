@@ -50,6 +50,7 @@ function Home() {
 
   return (
     <DefaultLayout>
+      <div className="Car-collection">
       <Row className="p-3" justify="center">
         <Col lg={20} sm={24} className="d-flex justify-content-left">
           <RangePicker
@@ -86,6 +87,7 @@ function Home() {
           );
         })}
       </Row>
+      </div>
     </DefaultLayout>
   );
 }

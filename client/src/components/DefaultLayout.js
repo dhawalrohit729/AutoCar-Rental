@@ -36,7 +36,7 @@ function DefaultLayout(props) {
                   <Link to="/"> Cars Rental</Link>
                 </b>
               </h1>
-
+              
               <Dropdown overlay={menu} placement="bottomCenter">
                 <Button>{user.username}</Button>
               </Dropdown>

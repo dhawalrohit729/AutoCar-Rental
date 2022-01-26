@@ -62,8 +62,11 @@ button{
   outline: none !important;
 }
 .content{
-  min-height: 90vh;
-  
+  background-image: url("https://media.istockphoto.com/photos/close-up-of-a-man-receiving-new-car-key-picture-id628453996?b=1&k=20&m=628453996&s=170667a&w=0&h=RXUMWirsHCnXSCuu4IzGYqoE9E8ijOYE8oTmEA_-05Q=");
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  max-height: 90vw;
 }
 .footer{
   background-color: aliceblue;
@@ -146,7 +149,7 @@ a{
 }
 
 .Car-collection{
-  background-image: src("https://media.istockphoto.com/photos/close-up-of-a-man-receiving-new-car-key-picture-id628453996?b=1&k=20&m=628453996&s=170667a&w=0&h=RXUMWirsHCnXSCuu4IzGYqoE9E8ijOYE8oTmEA_-05Q=");
+  background-image: url("https://media.istockphoto.com/photos/close-up-of-a-man-receiving-new-car-key-picture-id628453996?b=1&k=20&m=628453996&s=170667a&w=0&h=RXUMWirsHCnXSCuu4IzGYqoE9E8ijOYE8oTmEA_-05Q=");
   background-size: cover;
   width: 100vw;
   height: auto;

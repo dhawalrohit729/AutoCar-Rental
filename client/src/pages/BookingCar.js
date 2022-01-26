@@ -65,6 +65,7 @@ function BookingCar({ match }) {
   return (
     <DefaultLayout>
       {loading && <Spinner />}
+      <div className="bookingCar">
       <Row
         justify="center"
         className="d-flex align-items-center"
@@ -73,14 +74,15 @@ function BookingCar({ match }) {
         <Col lg={10} sm={24} xs={24} className="p-3">
           <img
             src={car.image}
-            className="carimg2 bs1 w-100"
+            className="carimg2 bs1 "
             data-aos="flip-left"
             data-aos-duration="1500"
           />
         </Col>
 
         <Col lg={10} sm={24} xs={24} className="text-right">
-          <Divider type="horizontal" dashed>
+          <div className="bookCarInfo">
+          <Divider type="horizontal"  dashed>
             Car Info
           </Divider>
           <div style={{ textAlign: "right" }}>
@@ -140,7 +142,9 @@ function BookingCar({ match }) {
               </StripeCheckout>
             </div>
           )}
+          </div>
         </Col>
+        
 
         {car.name && (
           <Modal
@@ -172,6 +176,7 @@ function BookingCar({ match }) {
           </Modal>
         )}
       </Row>
+      </div>
     </DefaultLayout>
   );
 }

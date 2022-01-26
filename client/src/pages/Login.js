@@ -26,7 +26,7 @@ function Login() {
             data-aos-duration="1500"
             src="https://images.unsplash.com/photo-1485291571150-772bcfc10da5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
           />
-          <h1 className="login-logo">Cars Rental</h1>
+          <h1 className="login-logo"> Rental Wheels</h1>
         </Col>
         <Col lg={8} className="text-left p-5">
           <Form
@@ -41,14 +41,15 @@ function Login() {
               label="Username"
               rules={[{ required: true }]}
             >
-              <Input />
+              <Input placeHolder="Type 'testuser' without quotes for testing" />
             </Form.Item>
             <Form.Item
               name="password"
               label="Password"
               rules={[{ required: true }]}
+              placeHolder="Type 'testpass' without quotes for testing"
             >
-              <Input type="password" />
+              <Input type="password" placeHolder="Type 'testpass' without quotes for testing" />
             </Form.Item>
 
             <button className="btn1 mt-2">Login</button>

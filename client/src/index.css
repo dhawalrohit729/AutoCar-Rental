@@ -26,13 +26,23 @@ code {
   z-index: 9999;
 }
 h1{
-  font-size: 30px;
+  font-size: 2em;
   font-weight: bold;
   color : orangered;
 }
+.Car-collection h3{
+  color: azure;
+  font-size: 2.2em;
+  font-weight: 1000;
+}
+.Car-collection h2{
+  color: azure;
+  font-size: 1.2em;
+  font-weight: bold;
+}
 p{
   margin: 5px !important;
-  
+  font-size: 1em;
   padding: 0;
 }
 .btn1{
@@ -62,24 +72,35 @@ button{
   outline: none !important;
 }
 .content{
-  background-image: url("https://media.istockphoto.com/photos/close-up-of-a-man-receiving-new-car-key-picture-id628453996?b=1&k=20&m=628453996&s=170667a&w=0&h=RXUMWirsHCnXSCuu4IzGYqoE9E8ijOYE8oTmEA_-05Q=");
-  background-size: cover;
+  background-image:linear-gradient(
+    115deg,
+    rgba(58, 58, 158, 0.3),
+    rgba(136, 136, 206, 0.5)
+  );
   width: 100vw;
+  min-height: max-content;
   height: auto;
-  max-height: 90vw;
 }
 .footer{
-  background-color: aliceblue;
-  padding: 10px;
+  background-color: azure;
+  padding: 5px;  
+  position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
 }
-
 
 /* this is just for ui purpose , no functionality is related */
 .car{
   border-radius: 5px;
   margin-top: 100px;
   height: 160px;
+  color: black;
+  font-weight: 700;
   transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.424);  
+  backdrop-filter: blur(5px);
 }
 .car:hover{
   height :220px;
@@ -126,8 +147,6 @@ button{
   transform: translateY(-50% , -50%);
   font-size:45px;
   opacity: 0.2 !important;
-  
-
 }
 .login a{
   color: white !important;
@@ -135,9 +154,9 @@ button{
 }
 
 .carimg2{
-  height: 400px;
+  height: auto;
   border-radius: 10px;
-  width: auto;
+  width: 90%;
 }
 
 svg{
@@ -149,10 +168,41 @@ a{
 }
 
 .Car-collection{
-  /* background-image: url("https://media.istockphoto.com/photos/close-up-of-a-man-receiving-new-car-key-picture-id628453996?b=1&k=20&m=628453996&s=170667a&w=0&h=RXUMWirsHCnXSCuu4IzGYqoE9E8ijOYE8oTmEA_-05Q="); */
-  background-color: black;
+  background-image: linear-gradient(
+    115deg,
+    rgba(58, 58, 158, 0.3),
+    rgba(136, 136, 206, 0.5)
+  ),url("https://media.istockphoto.com/photos/close-up-of-a-man-receiving-new-car-key-picture-id628453996?b=1&k=20&m=628453996&s=170667a&w=0&h=RXUMWirsHCnXSCuu4IzGYqoE9E8ijOYE8oTmEA_-05Q=");
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  max-height: 90vw;
+  padding-bottom: 5vh;
+}
+.bookingCar{
+  color: blanchedalmond;
+  background-image: linear-gradient(
+    115deg,
+    rgba(58, 58, 158, 0.7),
+    rgba(136, 136, 206, 0.5)
+  ),url("https://media.istockphoto.com/photos/close-up-of-a-man-receiving-new-car-key-picture-id628453996?b=1&k=20&m=628453996&s=170667a&w=0&h=RXUMWirsHCnXSCuu4IzGYqoE9E8ijOYE8oTmEA_-05Q=");
   background-size: cover;
   width: 100vw;
   height: auto;
   max-height: 90vw;
 }
+
+.bookCarInfo{
+    border-radius: 5px;
+    font-size: 1.3em;
+    font-weight: 700;
+    padding-right: 5%;
+    color:rgba(20, 20, 30, 0.8);
+    background-color: rgba(255, 255, 255, 0.424);  
+    backdrop-filter: blur(5px);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+

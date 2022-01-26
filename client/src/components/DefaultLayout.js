@@ -27,13 +27,14 @@ function DefaultLayout(props) {
   );
   return (
     <div>
-      <div className="header bs1">
+      <div className="header bs1" >
         <Row gutter={16} justify="center">
-          <Col lg={20} sm={24} xs={24}>
+          <Col lg={20} sm={20} xs={24}>
             <div className="d-flex justify-content-between">
               <h1>
                 <b>
-                  <Link to="/"> Cars Rental</Link>
+                  <img src="https://as2.ftcdn.net/v2/jpg/03/58/16/05/1000_F_358160523_d0Tc3knJ0j1RBobgWCjM4BZUo9gx33ZX.jpg" width={50} />
+                  <Link to="/"> <span> Rental Wheels </span></Link>
                 </b>
               </h1>
               
@@ -47,9 +48,7 @@ function DefaultLayout(props) {
       <div className="content">{props.children}</div>
 
       <div className="footer text-center">
-        <hr />
-        <p>Developed By</p>
-        <p>Dhawal Rohit</p>
+        <p>Developed By Dhawal Rohit</p>
       </div>
     </div>
   );

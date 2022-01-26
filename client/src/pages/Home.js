@@ -51,8 +51,6 @@ function Home() {
   return (
     <DefaultLayout>
       <div className="Car-collection">
-        Dhawal
-      </div>
       <Row className="p-3" justify="center">
         <Col lg={20} sm={24} className="d-flex justify-content-left">
           <RangePicker
@@ -62,14 +60,14 @@ function Home() {
           />
         </Col>
       </Row>
-
+      <h3 className="text-center "> Book a Car for a limited Time in town</h3>
+      <h2 className="text-center "> Choose from a range of cars and prices</h2>
       {loading == true && <Spinner />}
-
       <Row justify="center" gutter={16}>
         {totalCars.map((car) => {
           return (
             <Col xl={5} lg={10} md={12} sm={24}  xs={24}>
-              <div className="car p-2 bs1">
+              <div className="car p-2 bs1" >
                 <img src={car.image} className="carimg" />
 
                 <div className="car-content d-flex align-items-center justify-content-between">
@@ -77,7 +75,6 @@ function Home() {
                     <p>{car.name}</p>
                     <p> Rent Per Hour {car.rentPerHour} /-</p>
                   </div>
-
                   <div>
                     <button className="btn1 mr-2">
                       <Link to={`/booking/${car._id}`}>Book Now</Link>
@@ -89,6 +86,7 @@ function Home() {
           );
         })}
       </Row>
+      </div>
     </DefaultLayout>
   );
 }

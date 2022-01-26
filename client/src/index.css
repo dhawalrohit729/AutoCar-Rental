@@ -1,20 +1,20 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: azure;
 }
-
+body , html{
+  overflow-x: hidden !important;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.bs-1{
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+.bs1{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .ant-row{
   margin: 0 20 !important;
@@ -26,20 +26,13 @@ code {
   z-index: 9999;
 }
 h1{
-  font-size: 35px ;
-  font-weight: bold ;
+  font-size: 30px;
+  font-weight: bold;
+  color : orangered;
 }
-.header{
-  padding: 10px;
-  background-color:darkkhaki;
-}
-.content{
-  min-height: 90vh;
-  background-color:rgba(47, 79, 79,0.6);
-}
-
 p{
   margin: 5px !important;
+  
   padding: 0;
 }
 .btn1{
@@ -53,11 +46,13 @@ p{
 .bt1:focus{
   border: none;
 }
-
 button{
   padding: 3px 10px !important;
 }
-
+.header{
+  padding: 10px;
+  
+}
 .header .ant-btn{
   box-shadow: none !important;
   background-color : white !important;
@@ -66,16 +61,18 @@ button{
   padding: 5px 15px !important;
   outline: none !important;
 }
-
-
-
+.content{
+  min-height: 90vh;
+  
+}
 .footer{
   background-color: aliceblue;
   padding: 10px;
 }
 
 
-/* .car{
+/* this is just for ui purpose , no functionality is related */
+.car{
   border-radius: 5px;
   margin-top: 100px;
   height: 160px;
@@ -87,18 +84,18 @@ button{
 .car:hover > .car-content{
     opacity: 1;
     transform : translateY(-40px)
-} */
-.carimg{
-  height:180px;
-  width: auto;
-  border-radius: 5px;
 }
-/* .car-content{
+.carimg{
+  height: 180px;
+  width: 270px;
+  border-radius: 5px;
+  transform: translateY(-50px);
+}
+.car-content{
   transform: translateY(-200px);
   opacity: 0;
   transition: 0.3s;
-}  */
-
+}
 .login{
   background-color: black;
   padding-top: 50px;
@@ -126,6 +123,8 @@ button{
   transform: translateY(-50% , -50%);
   font-size:45px;
   opacity: 0.2 !important;
+  
+
 }
 .login a{
   color: white !important;
@@ -136,4 +135,12 @@ button{
   height: 400px;
   border-radius: 10px;
   width: auto;
+}
+
+svg{
+  height:20px !important;
+  width : 20px !important;
+}
+a{
+  color: orangered !important;
 }

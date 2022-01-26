@@ -1,18 +1,18 @@
 const initialData = {
-    loading : false
+  loading: false,
 };
 
-const LOADING = 'LOADING';
+const LOADING = "LOADING";
 
-export const alertsReducer = (state=initialData, action) =>{
-
-    switch(action.type){
-        case LOADING : {
-            return{
-                ...state,
-                loading : action.payload
-            }
-        }
-        default : return state
+export const alertsReducer = (state = initialData, action) => {
+  switch (action.type) {
+    case LOADING: {
+      return {
+        ...state,
+        loading: action.payload,
+      };
     }
-}
+    default:
+      return state;
+  }
+};

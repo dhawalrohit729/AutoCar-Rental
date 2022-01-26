@@ -7,9 +7,9 @@ import { getAllCars } from "../redux/actions/carsActions";
 import moment from "moment";
 import { bookCar } from "../redux/actions/bookingActions";
 import StripeCheckout from "react-stripe-checkout";
-import AOS from 'aos';
+import AOS from "aos";
 
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import "aos/dist/aos.css";
 const { RangePicker } = DatePicker;
 function BookingCar({ match }) {
   const { cars } = useSelector((state) => state.carsReducer);
@@ -45,23 +45,21 @@ function BookingCar({ match }) {
     setTotalHours(values[1].diff(values[0], "hours"));
   }
 
-  
-
-  function onToken(token){
+  function onToken(token) {
     const reqObj = {
-        token,
-        user: JSON.parse(localStorage.getItem("user"))._id,
-        car: car._id,
-        totalHours,
-        totalAmount,
-        driverRequired: driver,
-        bookedTimeSlots: {
-          from,
-          to,
-        },
-      };
-  
-      dispatch(bookCar(reqObj));
+      token,
+      user: JSON.parse(localStorage.getItem("user"))._id,
+      car: car._id,
+      totalHours,
+      totalAmount,
+      driverRequired: driver,
+      bookedTimeSlots: {
+        from,
+        to,
+      },
+    };
+
+    dispatch(bookCar(reqObj));
   }
 
   return (
@@ -72,8 +70,13 @@ function BookingCar({ match }) {
         className="d-flex align-items-center"
         style={{ minHeight: "90vh" }}
       >
-        <Col lg={10} sm={24} xs={24} className='p-3'>
-          <img src={car.image} className="carimg2 bs1 w-100" data-aos='flip-left' data-aos-duration='1500'/>
+        <Col lg={10} sm={24} xs={24} className="p-3">
+          <img
+            src={car.image}
+            className="carimg2 bs1 w-100"
+            data-aos="flip-left"
+            data-aos-duration="1500"
+          />
         </Col>
 
         <Col lg={10} sm={24} xs={24} className="text-right">
@@ -129,15 +132,12 @@ function BookingCar({ match }) {
               <StripeCheckout
                 shippingAddress
                 token={onToken}
-                currency='inr'
+                currency="inr"
                 amount={totalAmount * 100}
                 stripeKey="pk_test_51KKkIXSE2cca47W3chSedwxRumXVbXEZgrReFNlwR2aSig7Nm59f5CREt98hqeUi4GaBR658Mp6dsbmScnyU8kUa00wS9xBqbW"
               >
-                  <button className="btn1">
-                Book Now
-              </button>
+                <button className="btn1">Book Now</button>
               </StripeCheckout>
-              
             </div>
           )}
         </Col>

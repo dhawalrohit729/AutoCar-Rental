@@ -19,7 +19,7 @@ router.post("/bookcar", async (req, res) => {
         amount: req.body.totalAmount * 100,
         currency: "inr",
         customer: customer.id,
-        receipt_email: token.email
+        receipt_email: token.email,
       },
       {
         idempotencyKey: uuidv4(),
@@ -45,19 +45,13 @@ router.post("/bookcar", async (req, res) => {
   }
 });
 
-
-router.get("/getallbookings", async(req, res) => {
-
-    try {
-
-        const bookings = await Booking.find().populate('car')
-        res.send(bookings)
-        
-    } catch (error) {
-        return res.status(400).json(error);
-    }
-  
+router.get("/getallbookings", async (req, res) => {
+  try {
+    const bookings = await Booking.find().populate("car");
+    res.send(bookings);
+  } catch (error) {
+    return res.status(400).json(error);
+  }
 });
-
 
 module.exports = router;

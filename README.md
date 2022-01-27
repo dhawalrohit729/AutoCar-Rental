@@ -27,6 +27,8 @@ ___
 
 ## Snippets from the Web Application
 
+# Desktop UI
+
 # Homepage
 
 ![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/Homepage1.png "Desktop")
@@ -45,7 +47,9 @@ ___
 
 ___
 
-# Mobile Ui
+# Mobile UI
+
+# Homepage & Slot Booking Page
 
 ![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/Homepage2.png "Mobile") ![alt-text-2](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/BookingPage2.png "mobile2")
 

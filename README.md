@@ -1,4 +1,4 @@
-## Rental Wheels
+### Rental Wheels
 A Fully Responsive Car Rental Web Application .  
 A Car Rental web application which helps user book a slot for renting car for a limited period.
 The tech Stack used in this project are MongoDB, Express, Nodejs, React, Redux, Ant-Design .

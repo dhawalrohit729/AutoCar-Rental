@@ -1,11 +1,38 @@
 ## Rental Wheels
 A Fully Responsive Car Rental Web Application .  
+A Car Rental web application which helps user book a slot for renting car for a limited period.
 The tech Stack used in this project are MongoDB, Express, Nodejs, React, Redux, Ant-Design .
 
 It is hosted on Heroku platform .
 
 <b>LIVE:</b> https://auto-car-rental.herokuapp.com/
 ___
+## Snippets from the Web Application
+
+# Homepage
+![alt-text-1]( "Desktop") ![alt-text-2]( "Mobile")
+___
+
+## 
+
+# SlotBooking Page
+![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/Homepage1.png "Desktop") ![alt-text-2](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/Homepage2.png "Mobile")
+___
+
+# Admin Panel
+![alt-text-1]( "Desktop") ![alt-text-2]( "Mobile")
+___
+
+# Login Page
+![alt-text-1]( "Desktop") 
+___
+
+
+
+## Fully `Responsive` N `Material UI` integrarted
+![alt Text](https://github.com/PawanGulati/CuratedCart/blob/master/client/src/assets/snaps/snap3.PNG "HomePage")
+___
+
 ## Tech Stack 
 
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces

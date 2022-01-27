@@ -10,29 +10,23 @@ ___
 ## Snippets from the Web Application
 
 # Homepage
-![alt-text-1]( "Desktop") ![alt-text-2]( "Mobile")
-___
 
-## 
+![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/Homepage1.png "Desktop")
+___
 
 # SlotBooking Page
-![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/Homepage1.png "Desktop") ![alt-text-2](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/Homepage2.png "Mobile")
-___
 
-# Admin Panel
-![alt-text-1]( "Desktop") ![alt-text-2]( "Mobile")
+![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/BookingPage1.png "Desktop")
 ___
 
 # Login Page
-![alt-text-1]( "Desktop") 
+
+![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/LoginPage1.png "Desktop") 
 ___
 
+# Mobile Ui
 
-
-## Fully `Responsive` N `Material UI` integrarted
-![alt Text](https://github.com/PawanGulati/CuratedCart/blob/master/client/src/assets/snaps/snap3.PNG "HomePage")
-___
-
+![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/Homepage2.png "Mobile") ![alt-text-2](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/BookingPage2.png "mobile2")
 ## Tech Stack 
 
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces

@@ -7,7 +7,7 @@ It is hosted on Heroku platform .
 
 <b>LIVE:</b> https://auto-car-rental.herokuapp.com/
 
-# for using the Web Application for Testing Purposes use "testuser" as username and "testpass" as password without quotes("")
+For using the Web Application for Testing Purposes use "testuser" as username and "testpass" as password without quotes("")
 
 ___
 ## Snippets from the Web Application

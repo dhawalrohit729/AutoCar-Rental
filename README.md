@@ -7,29 +7,10 @@ It is hosted on Heroku platform .
 
 <b>LIVE:</b> https://auto-car-rental.herokuapp.com/
 
-For using the Web Application for Testing Purposes use "testuser" as username and "testpass" as password without quotes("")
+*For using the Web Application for Testing Purposes use "testuser" as username and "testpass" as password without quotes("")
 
 ___
-## Snippets from the Web Application
 
-# Homepage
-
-![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/Homepage1.png "Desktop")
-___
-
-# SlotBooking Page
-
-![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/BookingPage1.png "Desktop")
-___
-
-# Login Page
-
-![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/LoginPage1.png "Desktop") 
-___
-
-# Mobile Ui
-
-![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/Homepage2.png "Mobile") ![alt-text-2](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/BookingPage2.png "mobile2")
 ## Tech Stack 
 
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
@@ -40,6 +21,34 @@ ___
 - [MongoDB](https://docs.mongodb.com/guides/) - A Cross-platform document-oriented database program classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas
 - [Axios](https://axios-http.com/docs/intro) - Axios is a promise-based HTTP Client for node.js and the browser. On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.
 - [Express](https://expressjs.com/en/guide/routing.html) - Express is a back end web application framework for Node.js,designed for building web applications and APIs.
+
+___
+
+## Snippets from the Web Application
+
+# Homepage
+
+![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/Homepage1.png "Desktop")
+
+___
+
+# SlotBooking Page
+
+![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/BookingPage1.png "Desktop")
+
+___
+
+# Login Page
+
+![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/LoginPage1.png "Desktop") 
+
+___
+
+# Mobile Ui
+
+![alt-text-1](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/Homepage2.png "Mobile") ![alt-text-2](https://github.com/dhawalrohit729/AutoCar-Rental/blob/main/client/snippets/BookingPage2.png "mobile2")
+
+___
 
 
 
